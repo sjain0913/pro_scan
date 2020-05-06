@@ -13,10 +13,9 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: Image(
-          image: AssetImage('assets/atlskyline.jpg'),
-        ),
+      body: Container(
+        color: Colors.cyan,
+        child: Text('ay'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
