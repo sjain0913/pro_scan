@@ -14,6 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Container(
+        padding: EdgeInsets.,
         color: Colors.cyan,
         child: Text('ay'),
       ),
